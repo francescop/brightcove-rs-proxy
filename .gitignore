@@ -1,0 +1,7 @@
+/target
+tmp/
+.vim_*
+.swo
+.swp
+.env
+Makefile
