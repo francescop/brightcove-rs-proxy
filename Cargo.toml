@@ -22,6 +22,8 @@ tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 dotenv = "0.15.0"
 dotenv_codegen = "0.15.0"
+sqlx = { version = "0.5", features = [ "runtime-tokio-native-tls", "sqlite" ] }
+axum-macros = "0.2.0"
 
 [target.x86_64-pc-windows-msvc]
 rustflags = ["-C", "target-feature=+crt-static"]
